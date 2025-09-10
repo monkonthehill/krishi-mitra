@@ -8,54 +8,54 @@ body {
 
 @layer base {
   :root {
-    --background: 60 56% 90%; /* #F5F5DC - Light Beige */
-    --foreground: 40 10% 15%; /* Dark Brown/Grey */
-    --card: 60 56% 95%; /* Lighter Beige */
-    --card-foreground: 40 10% 15%;
-    --popover: 60 56% 95%;
-    --popover-foreground: 40 10% 15%;
-    --primary: 120 25% 40%; /* #8FBC8F - Darker Earthy Green */
-    --primary-foreground: 120 25% 95%; /* Light Green/White */
-    --secondary: 120 15% 80%; /* Lighter, less saturated green */
-    --secondary-foreground: 120 25% 20%;
-    --muted: 120 15% 85%;
-    --muted-foreground: 40 10% 40%;
-    --accent: 19 72% 60%; /* #E9967A - Darker Warm Orange */
-    --accent-foreground: 0 0% 100%; /* White */
+    --background: 220 20% 98%; /* #F8F9FA - Very light grey */
+    --foreground: 220 15% 20%; /* #2F3640 - Dark cool grey */
+    --card: 0 0% 100%; /* #FFFFFF - White */
+    --card-foreground: 220 15% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 20%;
+    --primary: 145 63% 42%; /* #27AE60 - Vibrant Green */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 15% 90%; /* #E1E5EA - Light grey-blue */
+    --secondary-foreground: 220 15% 30%;
+    --muted: 220 15% 94%; /* #EFF2F5 - Lighter grey-blue */
+    --muted-foreground: 220 10% 45%;
+    --accent: 35 92% 60%; /* #F39C12 - Warm Orange/Yellow */
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 120 15% 80%;
-    --input: 120 15% 85%;
-    --ring: 120 25% 40%;
-    --chart-1: 120 25% 40%;
-    --chart-2: 19 72% 60%;
+    --border: 220 15% 88%; /* #DDE1E6 */
+    --input: 220 15% 88%;
+    --ring: 145 63% 42%;
+    --chart-1: 220 70% 60%; /* Bright Blue */
+    --chart-2: 35 92% 60%; /* Warm Orange/Yellow */
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
-    --radius: 0.5rem;
+    --radius: 0.75rem;
   }
   .dark {
-    --background: 40 10% 10%; /* Dark Brown/Grey */
-    --foreground: 60 56% 90%; /* Light Beige */
-    --card: 40 10% 15%; /* Slightly Lighter Dark */
-    --card-foreground: 60 56% 90%;
-    --popover: 40 10% 10%;
-    --popover-foreground: 60 56% 90%;
-    --primary: 120 25% 65%; /* #8FBC8F - Original Earthy Green */
-    --primary-foreground: 120 25% 10%;
-    --secondary: 120 15% 20%; /* Darker Green */
-    --secondary-foreground: 120 15% 90%;
-    --muted: 120 15% 20%;
-    --muted-foreground: 60 56% 70%;
-    --accent: 19 72% 69%; /* #E9967A - Original Warm Orange */
-    --accent-foreground: 19 72% 10%;
+    --background: 220 15% 10%; /* #14161A - Very dark cool grey */
+    --foreground: 220 15% 90%; /* #E1E5EA */
+    --card: 220 15% 15%; /* #1C1F26 */
+    --card-foreground: 220 15% 90%;
+    --popover: 220 15% 10%;
+    --popover-foreground: 220 15% 90%;
+    --primary: 145 58% 50%; /* #48C9B0 - Lighter vibrant green */
+    --primary-foreground: 220 15% 10%;
+    --secondary: 220 15% 20%; /* #2F3640 */
+    --secondary-foreground: 220 15% 90%;
+    --muted: 220 15% 20%;
+    --muted-foreground: 220 10% 60%;
+    --accent: 35 85% 65%; /* #F5B041 */
+    --accent-foreground: 220 15% 10%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 120 15% 25%;
-    --input: 120 15% 25%;
-    --ring: 120 25% 65%;
-    --chart-1: 120 25% 65%;
-    --chart-2: 19 72% 69%;
+    --border: 220 15% 25%; /* #353B48 */
+    --input: 220 15% 25%;
+    --ring: 145 58% 50%;
+    --chart-1: 220 70% 65%;
+    --chart-2: 35 85% 65%;
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
