@@ -290,7 +290,7 @@ export function Dashboard() {
               <div className="flex items-center gap-2">
                  <Input id="pest-image" type="file" accept="image/*" onChange={handlePestFileChange} />
                  <Button onClick={handlePestDetection} disabled={!pestImage || isLoading.pest}>
-                    {isLoading.pest ? <Loader2 className="animate-spin" /> : <Eye />}
+                    {isLoading.pest ? <Loader2 className="animate-spin" /> : <Search />}
                  </Button>
               </div>
             </div>
