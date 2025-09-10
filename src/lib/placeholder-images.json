@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "farm-landscape",
+      "description": "A beautiful farm landscape with green fields.",
+      "imageUrl": "https://picsum.photos/seed/101/1200/400",
+      "imageHint": "farm field"
+    },
+    {
+      "id": "soil-texture",
+      "description": "Close up of hands holding rich soil.",
+      "imageUrl": "https://picsum.photos/seed/102/600/400",
+      "imageHint": "soil hands"
+    },
+    {
+      "id": "pest-on-leaf",
+      "description": "An insect pest on a green leaf.",
+      "imageUrl": "https://picsum.photos/seed/103/600/400",
+      "imageHint": "insect leaf"
+    },
+    {
+      "id": "weather-sky",
+      "description": "Sky with clouds, indicating weather.",
+      "imageUrl": "https://picsum.photos/seed/104/600/400",
+      "imageHint": "cloudy sky"
+    }
+  ]
 }
